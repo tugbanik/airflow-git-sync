@@ -23,4 +23,5 @@ with DAG('my_dag', default_args=default_args, schedule_interval='@daily', catchu
 
     t0 >> t1 >> t2
     #yorum satırı silindi..............
+    #yeni bir satır kontrol için eklendi#####
     
