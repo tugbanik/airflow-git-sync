@@ -22,4 +22,5 @@ with DAG('my_dag', default_args=default_args, schedule_interval='@daily', catchu
                       retries=2, retry_delay=timedelta(seconds=15))
 
     t0 >> t1 >> t2
-    #yorum satırıdır......
+    #yorum satırı silindi..............
+    
